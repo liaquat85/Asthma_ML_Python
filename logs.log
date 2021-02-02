@@ -2134,3 +2134,36 @@
                                     max_iter=1000, random_state=123)]]), probability_threshold=None, encoded_labels=True, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
 2021-01-23 00:42:07,376:INFO:Checking exceptions
 2021-01-23 00:42:07,376:INFO:Preloading libraries
+2021-01-23 17:22:16,739:INFO:Initializing load_model()
+2021-01-23 17:22:16,740:INFO:load_model(model_name=Finallrmodel20Jan2021, platform=None, authentication=None, verbose=True)
+2021-01-23 17:22:58,002:INFO:Initializing load_model()
+2021-01-23 17:22:58,003:INFO:load_model(model_name=Finallrmodel20Jan2021, platform=None, authentication=None, verbose=True)
+2021-01-23 17:23:25,321:INFO:Initializing predict_model()
+2021-01-23 17:23:25,327:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='asthma_severity')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequ...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply'], random_state=123,
+                             subclass='multi', target='asthma_severity',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 LogisticRegression(C=1.416, class_weight='balanced',
+                                    max_iter=1000, random_state=123)]]), probability_threshold=None, encoded_labels=True, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-01-23 17:23:25,327:INFO:Checking exceptions
+2021-01-23 17:23:25,328:INFO:Preloading libraries
+2021-02-02 10:16:42,266:INFO:Initializing load_model()
+2021-02-02 10:16:42,267:INFO:load_model(model_name=Finallrmodel20Jan2021, platform=None, authentication=None, verbose=True)
+2021-02-02 10:19:08,603:INFO:Initializing load_model()
+2021-02-02 10:19:08,604:INFO:load_model(model_name=Finallrmodel20Jan2021, platform=None, authentication=None, verbose=True)
